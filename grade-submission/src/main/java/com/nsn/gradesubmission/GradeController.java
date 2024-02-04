@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class GradeController {
     
     @GetMapping("/grades")
-    public String getGrades() {
-        return "grades";
+    public String getGrades(){
+        return "grades.html";
     }
 }
