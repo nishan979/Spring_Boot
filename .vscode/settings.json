@@ -1,8 +1,8 @@
 {
     "java.compile.nullAnalysis.mode": "automatic",
-    "java.configuration.updateBuildConfiguration": "interactive",
+    "java.configuration.updateBuildConfiguration": "automatic",
     "java.project.sourcePaths": [
-        "test/src/main/java/com/nsn/test",
-        ".vscode"
+        ".vscode",
+        "grade-repair/src/main/java/com/nsn/graderepair"
     ]
 }
