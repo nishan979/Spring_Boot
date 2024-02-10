@@ -6,9 +6,10 @@ import java.util.List;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
 
 @Controller
-
 public class GradeController {
 
     List<Grade> studentGrades = Arrays.asList(
@@ -18,7 +19,15 @@ public class GradeController {
     (new Grade("Roy", "English", "A-"))
     );     
 
+    @GetMapping("/")
+    public String gradeForm(Model model) {
+        model.addAttribute("grade", new Grade());
+        return "form";
+    }
     
+
+
+
     @GetMapping("/grades")
     public String getGrades(Model model){
        
