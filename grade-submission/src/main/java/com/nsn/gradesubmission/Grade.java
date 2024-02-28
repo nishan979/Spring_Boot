@@ -31,6 +31,7 @@ public class Grade {
 
     public void setSubject(String subject) {
         this.subject = subject;
+        // this.subject = subject;
     }
 
     public String getScore() {
