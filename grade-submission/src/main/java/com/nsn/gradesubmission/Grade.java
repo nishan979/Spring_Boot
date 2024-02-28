@@ -35,13 +35,10 @@ public class Grade {
 
     public String getScore() {
         return this.score;
-
-        // return this.score;
     }
 
     public void setScore(String score) {
         this.score = score;
-       // this.score = score;
     }
 
 }
