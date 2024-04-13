@@ -40,5 +40,5 @@ public class Grade {
     public void setScore(String score) {
         this.score = score;
     }
-    //6666
+    //7777
 }
