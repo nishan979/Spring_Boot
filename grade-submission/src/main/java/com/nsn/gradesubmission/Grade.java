@@ -39,6 +39,6 @@ public class Grade {
 
     public void setScore(String score) {
         this.score = score;
-        //1111222333112233
+        //1122334444
     }
 }
